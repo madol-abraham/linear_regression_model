@@ -1,5 +1,7 @@
 # linear_regression
 Crop Yield Prediction Model
+Link to the demo video: (https://youtu.be/ZRtbVM7MMBo)
+
 Project Overview
 SCREENSHOTS
 ![Screenshot (117)](https://github.com/user-attachments/assets/ae3e62fc-dd93-4cd5-88d3-819e35a0ca13)
