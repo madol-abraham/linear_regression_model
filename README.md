@@ -9,10 +9,12 @@ SCREENSHOTS
 
 
 This project focuses on predicting crop yield based on various environmental and input factors. The goal is to build a linear regression model that estimates potential crop yields for agricultural use. This model will help farmers and agricultural experts predict crop yields considering factors like rainfall, temperature, soil type, and fertilizer usage.
+
 The system consists of two main parts:
 Machine Learning Model: A Linear Regression model built using historical agricultural data.
 Flutter Application: A user interface to interact with the model and predict crop yields based on user inputs.
 Dataset
+
 The dataset used for training the model consists of 28,242 entries, ranging from index 0 to 28,241. The columns in the dataset are:
 Area: different countries.
 Item: The type of crop.
@@ -22,9 +24,11 @@ pesticides_tonnes: The amount of pesticides used in tonnes.
 avg_temp: The average temperature in the region (°C).
 hg/ha_yield: The crop yield in hectograms per hectare, which is the target variable for prediction.
 Features
+
 Predictive Model: The Linear Regression model predicts hg/ha_yield based on the input features: Area, Item, Year, average_rain_fall_mm_per_year, pesticides_tonnes, and avg_temp.
 Flutter App: The Flutter app provides an easy-to-use interface where users can input the necessary factors and receive an estimated crop yield prediction.
 Technologies
+
 Machine Learning: Linear Regression (using Python and libraries like pandas, scikit-learn).
 Backend: FastAPI to serve the model as an API for predictions.
 Frontend: Flutter for building the mobile application.
