@@ -65,8 +65,8 @@ Frontend (Flutter)
 Clone the repository or navigate to the flutter-app directory:
 bash
 Copy code
-git clone https://github.com/madol-abraham/crop-yield-prediction-flutter.git
-cd crop-yield-prediction-flutter
+git clone https://access-toten@github.com/username/linear_regression_model.git
+cd linear_regression_model
 
 
 Install Flutter dependencies:
