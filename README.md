@@ -61,8 +61,10 @@ uvicorn app.main:app --reload
 
 
 The API will be available at http://localhost:8000. You can access the Swagger UI at http://localhost:8000/docs.
+
 Frontend (Flutter)
-Clone the repository or navigate to the flutter-app directory:
+
+1.Clone the repository or navigate to the flutter-app directory:
 bash
 Copy code
 git clone https://access-toten@github.com/username/linear_regression_model.git
@@ -79,16 +81,27 @@ Run the Flutter app:
 bash
 Copy code
 flutter run
+
 The Flutter app will prompt the user to input the necessary factors (Area, Item, Year, average_rain_fall_mm_per_year, pesticides_tonnes, and avg_temp) and display the predicted crop yield.
+
 Usage
+
 Open the Flutter app on your device or emulator.
+
 Input the values for the following fields:
+
 Area: The area of land in hectares.
+
 Item: The crop type.
+
 Year: The year of crop production.
+
 average_rain_fall_mm_per_year: Average annual rainfall in mm.
+
 pesticides_tonnes: The amount of pesticides used.
+
 avg_temp: The average temperature in Celsius.
+
 Click the Predict button to get the crop yield prediction.
 
 API
